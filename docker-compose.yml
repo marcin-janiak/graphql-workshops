@@ -1,0 +1,13 @@
+﻿version: '3'
+services:
+  graphql-workshops-postgresql:
+    image: postgres:10
+    ports:
+      - "5432:5432"
+    volumes:
+      - graphql-workshops-postgresql-data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_PASSWORD": "secret"
+    restart: on-failure
+volumes:
+  graphql-workshops-postgresql-data:
