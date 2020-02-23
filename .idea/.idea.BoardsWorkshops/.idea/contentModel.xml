@@ -9,42 +9,6 @@
         <e p="BoardsWorkshops.API.csproj" t="IncludeRecursive" />
         <e p="DataAccess" t="Include">
           <e p="BoardsContext.cs" t="Include" />
-          <e p="UserRepository.cs" t="Include" />
-        </e>
-        <e p="Graph" t="Include">
-          <e p="AuthenticatedUserIdState.cs" t="Include" />
-          <e p="Cards" t="Include">
-            <e p="Card.cs" t="Include" />
-            <e p="CardMutations.cs" t="Include" />
-            <e p="OnCardAdded" t="Include">
-              <e p="OnCardAddedMessage.cs" t="Include" />
-              <e p="OnCardAddedPayload.cs" t="Include" />
-            </e>
-          </e>
-          <e p="Lists" t="Include">
-            <e p="ListMutations.cs" t="Include" />
-            <e p="OnListAdded" t="Include">
-              <e p="OnListAddedMessage.cs" t="Include" />
-              <e p="OnListAddedPayload.cs" t="Include" />
-            </e>
-            <e p="TaskList.cs" t="Include" />
-          </e>
-          <e p="Mutation.cs" t="Include" />
-          <e p="Query.cs" t="Include" />
-          <e p="Subscription.cs" t="Include" />
-          <e p="Users" t="Include">
-            <e p="User.cs" t="Include" />
-            <e p="UserMutations.cs" t="Include" />
-          </e>
-        </e>
-        <e p="Identity" t="Include">
-          <e p="GetTokenMutation.cs" t="Include" />
-          <e p="IdentityService.cs" t="Include" />
-        </e>
-        <e p="Migrations" t="Include">
-          <e p="20200217133732_init.cs" t="Include" />
-          <e p="20200217133732_init.Designer.cs" t="Include" />
-          <e p="BoardsContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
